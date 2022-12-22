@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="veiwport" content="width=device-width,initial-scale=1.0" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="stylesB.css" />
+    </head>
+    <body>
+      <main id="main-doc">
+        <nav id="navbar">
+          <header>C++ Documentation</header>
+          <ul>
+            <li><a class="nav-link" href="#Fundamentals">Fundamentals</a></li>
+            <li><a class="nav-link" href="#Fundamental_Types,_Constants,_and_Variables">Fundamental Types, Constants, and Variables</a></li>
+            <li><a class="nav-link" href="#Using_Functions_and_Classes">Using Functions and Classes</a></li>
+            <li><a class="nav-link" href="#Input_and_Output_with_Streams">Input and Output with Streams</a></li>
+            <li><a class="nav-link" href="#Operators_for_Fundamental_Types">Operators for Fundamental Types</a></li>
+            <li><a class="nav-link" href="#Control_Flow">Control Flow</a></li>
+            <li><a class="nav-link" href="#Symbolic_Constants_and_Macros">Symbolic Constants and Macros</a></li>
+            <li><a class="nav-link" href="#Converting_Arithmetic_Types">Converting Arithmetic Types</a></li>
+            <li><a class="nav-link" href="#The_Standard_Class_string">The Standard Class string</a></li>
+            <li><a class="nav-link" href="#Functions">Functions</a></li>
+          </ul>
+          </nav>
+        <section class="main-section" id="Fundamentals">
+          <header>Fundamentals</header>
+          <article>
+          <p>Chapter 1 gives a thorough description of the fundamental characteristics of the objectoriented C++ programming language. In addition, students are introduced to the steps
+necessary for creating a fully functional C++ program. Many examples are provided to
+help enforce these steps and to demonstrate the basic structure of a C++ program.</p>
+<ul>
+  <li>Development and Properties of C++</li>
+  <li>Object-Oriented Programming</li>
+  <li>Developing a C++ Program</li>
+  <li>A Beginner’s C++ Program </li>
+  <li>Structure of Simple C++ Programs</li>
+  </ul>
+  <code>//Hello World Code//
+    #include <iostream>
+    int main()
+    {
+      cout << "Hello World" << endl;
+    }</code>
+    </article>
+        </section>
+        <section class="main-section" id="Fundamental_Types,_Constants,_and_Variables"> 
+           <header>Fundamental Types, Constants, and Variables</header>   
+           <article>
+           <p>Chapter 2 provides a complete introduction to the basic types and objects used by
+C++ programs. Integral types and constants, fundamental types, and Boolean constants
+are just a few of the topics discussed.</p>  
+<ul>
+  <li>Fundamental Types</li>
+  <li>Constants</li>
+  <li>Escape Sequences</li>
+  <li>Names</li>
+  <li>Variables</li>
+  <li>The Keywords const and volatile</li>
+  </ul> 
+  <code>
+    int a;// for integers
+    flaot b;//for flaoting points
+    //Word like class,public ,int are reserved by compiler as serve special puspose//
+  </code>
+        </section>
+        </article>
+        <section class="main-section" id="Using_Functions_and_Classes">
+           <header>Using Functions and Classes</header>
+           <article>
+           <p>Chapter 3 describes how to declare and call standard functions. This chapter also
+teaches students to use standard classes, including standard header files. In addition, students work with string variables for the first time in this chapter. </p>
+<ul>
+  <li>Declaring Functions</li>
+  <li>Function Calls</li>
+  <li>Type void for Functions</li>
+  <li>Header Files</li>
+  <li>Standard Header Files</li>
+  <li>Using Standard Classes</li>
+  <code>#include<iostream> :- to input/output purpose
+    </code>
+  </ul>
+  </article>
+        </section>
+        <section class="main-section" id="Input_and_Output_with_Streams">
+           <header>Input and Output with Streams</header>
+           <article>
+           <p>Chapter 4 explains the use of streams for input and output, with a focus on formatting
+techniques. Formatting flags and manipulators are discussed, as are field width, fill characters, and alignment.</p>
+<ul>
+  <li>Streams</li>
+  <li>Formatting and Manipulators</li>
+  <li>Formatted Output of Integers </li>
+  <li>Formatted Output of Floating-Point Numbers</li>
+  <li>Output in Fields</li>
+  <li>Output of Characters, Strings, and Boolean Values</li>
+  <li>Formatted Input</li>
+  <li>Formatted Input of Numbers</li>
+  <li>Unformatted Input/Output</li>
+  </ul>
+  </article>
+        </section>
+        <section class="main-section" id="Operators_for_Fundamental_Types">
+           <header>Operators for Fundamental Types</header>
+           <article>
+           <p>Operators for Fundamental Types: Chapter 5 introduces operators needed for calculations and selections. Binary, unary,
+relational, and logical operators are all examined in detail.</p>
+<ul>
+  <li>Binary Arithmetic Operators</li>
+  <li>Unary Arithmetic Operators</li>
+  <li>Assignments</li>
+  <li>Relational Operators</li>
+  <li>Logical Operators</li>
+  </ul>
+  </article>
+        </section>
+        <section class="main-section" id="Control_Flow">
+          <header>Control Flow</header>
+          <article>
+          <p>Control Flow: Chapter 6 describes the statements needed to control the flow of a program. These
+include loops with while, do-while, and for; selections with if-else, switch, and the conditional operator; and jumps with goto, continue, and break.</p>
+<ul>
+  <li>The while Statement</li>
+  <li>The for Statement</li>
+  <li>The do-while Statement</li>
+  <li>Selections with if-else</li>
+  <li>Else-if Chains</li>
+  <li>Conditional Expressions</li>
+  <li>Selecting with switch</li>
+  <li>Jumps with break, continue, and goto</li>
+  </ul>
+  <code>while(condition)
+    {
+      body ;
+      update statement;
+    }
+    </code>
+    </article>
+ </section>
+        <section class="main-section" id="Symbolic_Constants_and_Macros"> 
+           <header>Symbolic Constants and Macros</header>   
+           <p>Symbolic Constants and Macros: Chapter 7 provides a thorough introduction to the definition of symbolic constants
+and macros, illustrating their significance and use. Furthermore, a comprehensive examination of standard macros for character handling is included.</p>
+<ul>
+  <li>Macros</li>
+  <li>Macros with Parameters</li>
+  <li>Working with the #define Directive</li>
+  <li>Conditional Inclusion </li>
+  <li>Standard Macros for Character Manipulation</li>
+  <li>Redirecting Standard Input and Output</li>
+  </ul>   
+        </section>
+        <section class="main-section" id="Converting_Arithmetic_Types">
+           <header>Converting Arithmetic Types</header>
+           <article>
+           <p>Converting Arithmetic Types: Chapter 8 introduces implicit type conversions, which are performed in C++ whenever different arithmetic types occur in expressions. Additionally, the chapter explores
+an operator for explicit type conversion.</p>
+<ul>
+  <li>Implicit Type Conversions</li>
+  <li>Performing Usual Arithmetic Type Conversions</li>
+  <li>Implicit Type Conversions in Assignments 1</li>
+  <li>More Type Conversions</li>
+  </ul>
+  </article>
+        </section>
+        <section class="main-section" id="The_Standard_Class_string">
+           <header>The Standard Class string</header>
+           <article>
+           <p>The Standard Class string: Chapter 9 takes an in-depth look at the standard class string, which is used to represent strings. In addition to defining strings, the chapter looks at the various methods of
+string manipulation. These include inserting and erasing, searching and replacing, comparing, and concatenating strings.</p>
+<ul>
+  <li>Defining and Assigning Strings</li>
+  <li>Concatenating Strings </li>
+  <li>Comparing Strings</li>
+  <li>Inserting and Erasing in Strings</li>
+  <li>Searching and Replacing in Strings</li>
+  <li>Accessing Characters in Strings</li>
+  </ul>
+  </article>
+        </section>
+        <section class="main-section" id="Functions">
+           <header>Functions</header>
+      <article>
+           <p>Functions: Chapter 10 describes how to write functions of your own. The basic rules are covered,
+as are passing arguments, the definition of inline functions, overloading functions and
+default arguments, and the principle of recursion</p>
+<ul>
+  <li>Significance of Functions in C++</li>
+  <li>Defining Functions</li>
+  <li>Return Value of Functions</li>
+  <li>Passing Arguments </li>
+  <li>Inline Functions</li>
+  <li>Default Arguments</li>
+  <li>Overloading Functions</li>
+  <li>Recursive Functions</li>
+  </ul>
+  <code>function square(number) { return number * number; }</code>
+   <code>return number * number;</code>
+   <article>
+        </section>
+      </main>
+        </body
